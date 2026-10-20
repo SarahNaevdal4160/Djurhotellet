@@ -1,7 +1,7 @@
 /*
  * Att-göra-lista – Djurhotellet Tass & Mys
  *
- * [ ] 1. Skapa klassen Katt med namn, ras och chipnummer.
+ * [x] 1. Skapa klassen Katt med namn, ras och chipnummer.
  * Uppgifterna ska inte kunna ändras efter att katten skapats.
  *
  * [ ] 2. Skapa klassen KattHotell med en privat lista av katter.
