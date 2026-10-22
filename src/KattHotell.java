@@ -30,8 +30,15 @@ public class KattHotell {
     }
 
     public void ropaUppKatter() {
-    for (Katt katt : katter) {
-        System.out.println(katt);
-        }
+    if (katter.isEmpty()) {
+        System.out.println("Hotellet är tomt. Inga katter är incheckade.");
+        return;
     }
+
+    for (Katt katt : katter) {
+        System.out.println("Namn: " + katt.getNamn()
+                + ", Ras: " + katt.getRas()
+                + ", Chipnummer: " + katt.getChipnummer());
+    }
+}
 }

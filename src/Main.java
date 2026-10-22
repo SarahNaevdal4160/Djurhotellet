@@ -24,16 +24,17 @@ public class Main {
 
     KattHotell hotell = new KattHotell();
 
+    hotell.ropaUppKatter();
+
     Katt katt1 = new Katt("Maja", "Bondkatt", 1001);
     Katt katt2 = new Katt("Sigge", "Norsk skogkatt", 1002);
     Katt katt3 = new Katt("Milo", "Bengal", 1001);
 
-    hotell.checkaIn(katt1);
-    hotell.checkaIn(katt2);
-    hotell.checkaIn(katt3);
+    //hotell.checkaIn(katt1);
+    //hotell.checkaIn(katt2);
+    //hotell.checkaIn(katt3);
 
-    System.out.println("Antal katter: " + hotell.antalKatter());
+    //System.out.println("Antal katter: " + hotell.antalKatter());
 
-    hotell.ropaUppKatter();
     }
 }
