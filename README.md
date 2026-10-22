@@ -1,0 +1,2 @@
+
+Djurhotellet är ett Java-program för kattpensionatet Tass & Mys där man kan checka in katter och se vilka katter som redan är incheckade eller om hotellet är tomt. Varje katt läggs in med namn, ras och chip-nummer. Av säkerhetsskäl kan inte två katter med samma chip-nummer checkas in samtidigt. 
