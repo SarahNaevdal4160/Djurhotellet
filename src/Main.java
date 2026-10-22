@@ -14,8 +14,15 @@
  *
  * [x] 5. Visa ett tydligt meddelande om hotellet är tomt.
  *
- * [ ] 6. Dokumentera projektet i README.md.
- */
+ * [x] 6. Dokumentera projektet i README.md.
+ * 
+ * [x] 7. Göra så att hotellet kan leta upp en katt på namn (eller svara tomt om den saknas).
+ * 
+ * [ ] 8. Bygga meny-loopen
+ * 
+ * [ ] 9. Koppla ihop val 1-4 (med grindvakt i val 3).
+
+*/
 
 public class Main {
     public static void main(String[] args) {

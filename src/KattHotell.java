@@ -4,6 +4,15 @@ import java.util.List;
 public class KattHotell {
     private List<Katt> katter = new ArrayList<>();
 
+    public Katt hittaNamn(String namn) {
+        for (Katt katt : katter) {
+            if (katt.getNamn().equalsIgnoreCase(namn)) {
+                return katt;
+            }
+        }
+        return null;
+    }
+
     public boolean checkaIn(Katt katt) {
         if (finnsChipnummer(katt.getChipnummer())) {
             System.out.println("Varning: En katt med chipnummer " + katt.getChipnummer() + " är redan incheckad.");
