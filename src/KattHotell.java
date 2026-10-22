@@ -19,7 +19,7 @@ public class KattHotell {
         if (katt.getChipnummer() == chipnummer) {
             return true;
         }
-    }
+        }
     return false;
     }
 
@@ -27,5 +27,11 @@ public class KattHotell {
         return katter.size();
     }public int antalKatter() {
         return katter.size();
+    }
+
+    public void ropaUppKatter() {
+    for (Katt katt : katter) {
+        System.out.println(katt);
+        }
     }
 }

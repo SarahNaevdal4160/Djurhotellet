@@ -33,5 +33,7 @@ public class Main {
     hotell.checkaIn(katt3);
 
     System.out.println("Antal katter: " + hotell.antalKatter());
+
+    hotell.ropaUppKatter();
     }
 }
