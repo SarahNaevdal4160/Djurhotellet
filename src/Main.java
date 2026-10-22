@@ -4,7 +4,7 @@
  * [x] 1. Skapa klassen Katt med namn, ras och chipnummer.
  * Uppgifterna ska inte kunna ändras efter att katten skapats.
  *
- * [ ] 2. Skapa klassen KattHotell med en privat lista av katter.
+ * [x] 2. Skapa klassen KattHotell med en privat lista av katter.
  *
  * [ ] 3. Hindra att två katter med samma chipnummer checkas in.
  * Visa en varning om chipnumret redan finns.
@@ -20,5 +20,6 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Välkommen till Djurhotellet!");
+   
     }
 }
