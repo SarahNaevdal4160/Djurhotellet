@@ -4,13 +4,15 @@ import java.util.List;
 public class KattHotell {
     private List<Katt> katter = new ArrayList<>();
 
-    public Katt hittaNamn(String namn) {
+    public List<Katt> hittaNamn(String namn) {
+        List<Katt> hittadeKatter = new ArrayList<>();
+        
         for (Katt katt : katter) {
             if (katt.getNamn().equalsIgnoreCase(namn)) {
-                return katt;
+                hittadeKatter.add(katt);
             }
         }
-        return null;
+        return hittadeKatter;
     }
 
     public boolean checkaIn(Katt katt) {
